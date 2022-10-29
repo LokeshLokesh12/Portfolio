@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Mochiy+Pop+One&family=Righteous&display=swap');
+
+
+
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Mochiy Pop One', sans-serif; */
+/* font-family: 'Righteous', cursive; */
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+    color: #fff;
+}
+html{
+   
+    scroll-behavior: smooth;
+    transition: 10s;
+}
+body{
+    background-image: url(./images/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products.jpg);
+}
+.header{
+    background-color:rgba(43, 42, 42, 0.53);
+    height: 60px;
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 1px 1px 25px rgb(9, 9, 9);
+    
+}
+.developer{
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 150px;
+    color:white;
+}
+.per{
+    color: orangered;
+}
+.header_left{
+    /* flex: 4; */
+    width: 30%;
+}
+.header_right{
+    display: flex;
+    /* flex: 6; */
+    color: white;
+    width: 70%;
+
+    /* text-align: right; */
+}
+
+li{
+    
+    display: flex;
+    margin-top:5px ;
+}
+.tog{
+    position: absolute;
+    justify-content: space-evenly;
+    display: flex;
+    flex: 6;
+    gap: 150px;
+    margin-left: 130px;
+    margin-top: 10px;
+    
+}
+ a:hover{
+    color: orangered;    
+
+}
+.home{
+    position: static;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(180deg, black,black, gray, white); */
+}
+/* @keyframes text */
+.home h1{
+    /* width: 100%;
+    top: 20px;  */
+    /* align-items: center; */
+    color: white;
+    font-size: 4rem; 
+    font-family: 'Mochiy Pop One', sans-serif; 
+}
+.home p{
+    color: #fff;
+    width: 800px;
+    /* margin: 30px; */
+    padding: 60px 0 0 0;
+    font-size: 20px;
+}
+
+/* .home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    background-image: linear-gradient(180deg,gray,white,);
+}
+.home img{
+    border-radius: 6px; 
+} */
+/* .profile{
+    height: 600px;
+    width:450px;
+    position: absolute;
+    left: 130px; 
+    top: 100px;
+} */
+.menu-wrap{
+    display: flex;
+}
+/* .home h1{
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    font-size: xx-large;
+    border: none;
+    background: transparent;
+    font-family: 'Righteous', cursive;
+    
+    }  
+.home h3{
+    position: absolute;
+    top: 175px;
+    left: 600px;
+    font-size: x-large;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 10;
+    
+}
+.home p {
+    position: absolute;
+    top: 220px;
+    left: 600px;
+    width: 55%;
+    font-size: 22px;
+    font-family: 'Caveat', cursive;
+} */

@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LokeshLokesh12/Portfolip.git"
+  },
+  "keywords": [
+    "portfolio",
+    "for",
+    "web",
+    "developer"
+  ],
+  "author": "loki..",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LokeshLokesh12/Portfolip/issues"
+  },
+  "homepage": "https://github.com/LokeshLokesh12/Portfolip#readme"
+}
